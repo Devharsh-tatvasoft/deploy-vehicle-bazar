@@ -24,7 +24,9 @@ import { ConfigModule } from '@nestjs/config';
     AuthModule,
     StripeModule.forRootAsync(),
     ComparisiontableModule,
-    MongooseModule.forRoot('mongodb://localhost:27017/vehiclebazar'),
+    MongooseModule.forRoot(
+      'mongodb+srv://harsh8602:ZQgDl40jeSOpgsxG@cluster0.tnkwk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+    ),
     OrdersModule,
     LocationModule,
     ReviewsModule,
