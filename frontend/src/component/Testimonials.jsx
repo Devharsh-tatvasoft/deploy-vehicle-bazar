@@ -118,7 +118,7 @@ const Testimonials = () => {
           {/* Carousel Items */}
           <div
             ref={testimonialsRef}
-            className="flex gap-6 w-full snap-x snap-mandatory overflow-x-auto lg:w-1/2  scrollbar-hide"
+            className="flex gap-6 w-full snap-x snap-mandatory overflow-x-auto lg:w-1/2"
           >
             {loading ? (
               <p className="text-center text-lg">Loading reviews...</p>
